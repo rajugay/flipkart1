@@ -178,11 +178,13 @@
             }
         </script>
 
-        <script>
-            function btnContinue() {
-                window.location = "../payment/2.php";
-            }
-        </script>
+      <script>
+    function btnContinue() {
+        console.log("Current location: " + window.location.href);
+        console.log("Trying to go to: ../payment/2.php");
+        window.location = "../payment/2.php";
+    }
+</script>
 
         <footer class="seofooter" id="seofooter"></footer>
 
